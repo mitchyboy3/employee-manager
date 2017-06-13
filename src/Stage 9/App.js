@@ -3,10 +3,17 @@ import React, { Component } from 'react';
 import Employee from './models/Employee';
 
 // components
+import Header from './components/Header'
+import EmployeeList from './components/EmployeeList'
+import EmployeeEditor from './components/EmployeeEditor'
 
 class App extends Component {
   // constructor
-
+  constuctor(){
+    this.state = {
+      
+    }
+  }
   // selectEmployee
 
   // refresh
